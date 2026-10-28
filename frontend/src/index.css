@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: #F6F3EC;
+  --color-ink: #16233B;
+  --color-marigold: #E9A23B;
+  --color-marigold-dark: #D4901F;
+  --color-teal: #2F6E63;
+  --color-line: #DDD5C3;
+  --color-clay: #C1502E;
+
+  --font-display: "Fraunces", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-canvas);
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+}
